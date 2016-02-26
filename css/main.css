@@ -1,0 +1,63 @@
+/*Inserta tu css aqui*/
+body{
+	background-color: #DADBD4;
+}
+header{
+	background-color: #009688;
+	height: 120px;
+}
+#chat{
+	position: relative;
+	top: -55px;
+}
+
+.contact{
+	background-color: #FFFFFF;
+	border: 1px solid silver;
+}
+.avatar{
+	border-radius: 100px;
+	width:55px;
+	height: 55px;
+	float: left;
+	margin:2%;
+}
+.contact-info{
+	padding: 2%;
+}
+.laboratoria{
+	background-image: url(../image/logocodeacademy.png);
+	background-size: contain;
+}
+.raymi{
+	background-image: url(../image/raymi.jpg);
+	background-size: contain;
+}
+.mariana{
+	background-image: url(../image/mariana.jpg);
+	background-size: contain;
+}
+.ana{
+	background-image: url(../image/anamaria.jpg);
+	background-size: contain;
+}
+.rodulfo{
+	background-image: url(../image/rodulfo.jpg);
+	background-size: contain;
+}
+.andrea{
+	background-image: url(../image/andrea.jpg);
+	background-size: contain;
+}
+.maria{
+	background-image: url(../image/mariapaula.jpg);
+	background-size: contain;
+}
+.katy{
+	background-image: url(../image/katy.jpg);
+	background-size: contain;
+}
+.aldo{
+	background-image: url(../image/aldo.jpg);
+	background-size: contain;
+}
