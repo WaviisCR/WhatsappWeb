@@ -6,24 +6,51 @@ header{
 	background-color: #009688;
 	height: 120px;
 }
+p{
+	margin:auto;
+	font-size: 85%;
+}
+.container{
+	border: solid 0.5px silver;
+}
 #chat{
 	position: relative;
-	top: -55px;
+	top: -105px;
 }
-
+.menu{
+	padding: 3%;
+	text-align: right;
+    font-size: 130%;
+}
+.fix-position{
+	position: relative;
+    top: -7px;
+}
+form{
+	padding: 2%;
+}
+form .search{
+	width: 90%;
+	border: transparent;
+}
 .contact{
-	background-color: #FFFFFF;
+	background-color: white;
 	border: 1px solid silver;
+	margin: -1px;
 }
 .avatar{
 	border-radius: 100px;
-	width:55px;
-	height: 55px;
+	width:45px;
+	height: 45px;
 	float: left;
 	margin:2%;
 }
 .contact-info{
 	padding: 2%;
+}
+.gian{
+	background-image: url(../image/gian.jpg);
+	background-size: contain;
 }
 .laboratoria{
 	background-image: url(../image/logocodeacademy.png);
@@ -61,3 +88,99 @@ header{
 	background-image: url(../image/aldo.jpg);
 	background-size: contain;
 }
+span{
+	float:right;
+    position: relative;
+    color: silver;
+    font-size: 80%;
+}
+.date{
+	top: -46px;
+}
+.group-info{
+	padding: 0.15em;
+    border-bottom: silver solid 0.5px;
+}
+.chat-options{
+	float: right;
+    position: relative;
+    top: -60px;
+}
+.chat-panel{
+	padding: 1%;
+	background-image: url(../image/chat-panel-bg.png);
+	background-repeat: repeat; 
+	background-color: #EDE9E4;
+}
+.message{
+	border-radius: 5px;
+	padding: 1%;
+	margin:1%;
+	width: 45%;
+}
+.new{
+	background-color: #FEFEFE;
+}
+.send{
+	background-color: #DCF8C6;
+	margin-left: 55%;
+}
+.message-date{
+	top:-10px;
+}
+.icon-form{
+	font-size: 140%
+}
+.input-form{
+	padding: 0.4em;
+	border-top: 0.5px solid silver;
+}
+.input-message input{
+	width: 90%;
+    display: inline;
+}
+.d-i{
+	display: inline;
+}
+.w-50{
+	width: 50%;
+}
+.pd-r{
+	padding-right: 0px;
+}
+.pd-l{
+	padding-left: 0px;
+}
+.mg-1{
+	margin:1%;
+}
+.bck-lightgray{
+	background-color: #EEEEEE;
+}
+
+/*.scrollbar
+{
+	float: left;
+	background: #F5F5F5;
+	overflow-y: scroll;
+	width: 100%;
+}
+#style-4::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+#style-4::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #cacaca;
+}
+
+#style-4::-webkit-scrollbar-thumb
+{
+	background-color: #cacaca;
+}
+.bck-trsp{
+	background: transparent;
+}*/
