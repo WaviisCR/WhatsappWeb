@@ -100,7 +100,21 @@ function limpiarInput() {
 
 
 
-/*BUSQUEDA*/
+/* TESTING BUSQUEDA*/
+$("#search").on("keyup", search);
+
 function search_contact() {
-    // body...  
-}
+    var contact = $(".contact");
+    var texto = $("#search");
+    texto = texto.toLowerCase();
+    contact.show();
+    for (var i = 0; i < contact.size(); i++) {
+        var content = contact.eq(i).text();
+        content = content.toLowerCase();
+        var index = content.indexOf(texto);
+        if (index == -1) {
+            contact.eq(i).hide();
+        }
+    }
+};
+/*LAS BUSQUEDAS SE GUARDAN EN UNA LISTA, PERO NO MUESTRAN RESULTADOS.*/
