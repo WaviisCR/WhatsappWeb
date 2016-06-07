@@ -1,3 +1,5 @@
+/*ARREGLO PARA JALAR LOS CONTACTOS*/
+
 var contacts = [{
     name: "Laboratoria Peru",
     foto: "logocodecademy.png"
