@@ -8,5 +8,5 @@ $("#input-message").bind('keyup', function(e) {
     }
 });
 function send_message() {
-    $("#chat-panel").append("<div class= 'send message'>" + message + "</div>");
+    $("#chat-panel").append("<div class= 'send message'>"+message+"</div>");
 };
