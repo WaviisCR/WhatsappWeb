@@ -1,4 +1,4 @@
-/*Inserta tu css aqui*/
+
 body{
 	background-color: #DADBD4;
 }
@@ -9,6 +9,11 @@ header{
 p{
 	margin:auto;
 	font-size: 85%;
+}
+ul{
+	list-style: none;
+	text-decoration: none;
+	margin-left: -2.8em;
 }
 .container{
 	border: solid 0.5px silver;
