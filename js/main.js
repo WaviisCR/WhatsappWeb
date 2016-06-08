@@ -74,8 +74,10 @@ $("#input-message").on('keydown', function(e) {
         var message = $("#input-message").val();
         send_message(message);
         limpiarInput();
+        e.preventDefault();
     }
 });
+/*agrego .preventdefault() para que no se recargue*/
 
 function send_message(message) {
     var timing = new Date();
